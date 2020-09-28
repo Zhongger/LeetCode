@@ -42,6 +42,8 @@ public class SwapPairsSolution {
 
     /**
      * 迭代法求解
+     * 时间复杂度：O(N) ，其中 N 指的是链表的节点数量。
+     * 空间复杂度：O(1) 。
      * @param head
      * @return
      */
