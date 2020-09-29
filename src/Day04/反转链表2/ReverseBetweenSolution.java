@@ -29,7 +29,7 @@ public class ReverseBetweenSolution {
             third=cur.next;
             cur.next=prev;
             prev=cur;
-            cur=tail;
+            cur=third;
             n--;
         }
         if (con!=null){
