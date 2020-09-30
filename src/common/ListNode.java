@@ -38,7 +38,7 @@ public class ListNode {
      * 构造1->2->3->4->5链表
      * @return
      */
-    public ListNode getOneToFiveList(){
+    public static ListNode getOneToFiveList(){
         ListNode node1 = new ListNode(1);
         ListNode node2 = new ListNode(2);
         ListNode node3 = new ListNode(3);
