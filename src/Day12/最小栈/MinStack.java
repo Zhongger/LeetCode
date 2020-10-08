@@ -5,7 +5,7 @@ import java.util.Stack;
 public class MinStack {
     private Stack<Integer> stack;
     private Stack<Integer> minStack;
-
+//辅助栈
     public MinStack() {
         stack = new Stack<>();
         minStack = new Stack<>();
