@@ -27,9 +27,10 @@ public class RemoveDuplicateLetterSolution {
                     Character pop = stack.pop();
                     set.remove(pop);
                 }
+                set.add(c);
+                stack.add(c);
             }
-            set.add(c);
-            stack.add(c);
+
         }
         StringBuffer stringBuffer = new StringBuffer();
         for (Character c : stack) {
