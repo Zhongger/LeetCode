@@ -22,8 +22,8 @@ public class RemoveDuplicateLetterSolution {
         HashSet<Character> set = new HashSet<>();
         for (int i = 0; i < s.length(); i++) {
             char c = s.charAt(i);
-            if (!set.contains(c)){
-                while (!stack.isEmpty()&&c<stack.peek()&&map.get(stack.peek())>i){
+            if (!set.contains(c)) {
+                while (!stack.isEmpty() && c < stack.peek() && map.get(stack.peek()) > i) {
                     Character pop = stack.pop();
                     set.remove(pop);
                 }
@@ -32,8 +32,8 @@ public class RemoveDuplicateLetterSolution {
             stack.add(c);
         }
         StringBuffer stringBuffer = new StringBuffer();
-        while (!stack.isEmpty()){
-            stringBuffer.append(stack.pop());
+        for (Character c : stack) {
+            stringBuffer.append(c);
         }
         return stringBuffer.toString();
 
