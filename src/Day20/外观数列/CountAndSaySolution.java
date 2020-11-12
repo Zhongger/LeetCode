@@ -1,11 +1,5 @@
 package Day20.外观数列;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
-import java.util.stream.Collectors;
-
 /**
  * Created by Zhong Mingyi on 2020/11/12.
  * 给定一个正整数 n ，输出外观数列的第 n 项。
