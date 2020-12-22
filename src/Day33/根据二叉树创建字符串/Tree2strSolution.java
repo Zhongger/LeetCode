@@ -21,7 +21,11 @@ public class Tree2strSolution {
         return helper(t);
     }
 
-
+    /**
+     * 深度优先搜索
+     * @param root
+     * @return
+     */
     public String helper(TreeNode root) {
         StringBuffer stringBuffer = new StringBuffer();
         if (root == null) {
